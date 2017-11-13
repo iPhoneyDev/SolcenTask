@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0238CB91736571A33B4AD2 /* Pods_SolcenTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BF8916BB2D0E1FF5462F5 /* Pods_SolcenTaskTests.framework */; };
+		54BCDB640CBCC9B3717A99BC /* Pods_SolcenTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2BAC89174A1937AE7F4988 /* Pods_SolcenTask.framework */; };
+		BF67BDD4781D6BEB981991A3 /* Pods_SolcenTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53474931CBEF7005E50B95 /* Pods_SolcenTaskUITests.framework */; };
+		C13819B71FB9FFAB00777355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D80C21FB9479E0003606F /* ViewController.swift */; };
+		C13819B91FBA078A00777355 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819B81FBA078A00777355 /* Utilities.swift */; };
+		C13819BB1FBA09AA00777355 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819BA1FBA09AA00777355 /* CategoriesViewController.swift */; };
+		C13819BD1FBA0BDA00777355 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819BC1FBA0BDA00777355 /* BaseViewController.swift */; };
+		C13819C01FBA13A600777355 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819BE1FBA13A600777355 /* CustomTableViewCell.swift */; };
+		C13819C11FBA13A600777355 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13819BF1FBA13A600777355 /* CustomTableViewCell.xib */; };
+		C13819C31FBA195C00777355 /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819C21FBA195C00777355 /* AchievementsViewController.swift */; };
+		C13819C91FBA1E4500777355 /* AchievmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13819C81FBA1E4500777355 /* AchievmentDetailsViewController.swift */; };
+		C18D80C41FB947E30003606F /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D80C31FB947E30003606F /* ApiModel.swift */; };
+		C18D80C71FB98D5A0003606F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D80C61FB98D590003606F /* Constants.swift */; };
+		C19C64DC1FB35C0E00278797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C64DB1FB35C0E00278797 /* AppDelegate.swift */; };
+		C19C64E11FB35C0E00278797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19C64DF1FB35C0E00278797 /* Main.storyboard */; };
+		C19C64E41FB35C0E00278797 /* SolcenTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C19C64E21FB35C0E00278797 /* SolcenTask.xcdatamodeld */; };
+		C19C64E61FB35C0E00278797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19C64E51FB35C0E00278797 /* Assets.xcassets */; };
+		C19C64E91FB35C0E00278797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19C64E71FB35C0E00278797 /* LaunchScreen.storyboard */; };
+		C19C64F41FB35C0E00278797 /* SolcenTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C64F31FB35C0E00278797 /* SolcenTaskTests.swift */; };
+		C19C64FF1FB35C0E00278797 /* SolcenTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C64FE1FB35C0E00278797 /* SolcenTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19C64F01FB35C0E00278797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19C64D01FB35C0D00278797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19C64D71FB35C0E00278797;
+			remoteInfo = SolcenTask;
+		};
+		C19C64FB1FB35C0E00278797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19C64D01FB35C0D00278797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19C64D71FB35C0E00278797;
+			remoteInfo = SolcenTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2BAC89174A1937AE7F4988 /* Pods_SolcenTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolcenTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B07EAEEC233DA9A6E7FCE9 /* Pods-SolcenTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTaskTests/Pods-SolcenTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B41398E50402DF9DA6E38AC /* Pods-SolcenTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTask/Pods-SolcenTask.release.xcconfig"; sourceTree = "<group>"; };
+		70D2C3680B1FAA10C1BCAD63 /* Pods-SolcenTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTaskUITests/Pods-SolcenTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E53474931CBEF7005E50B95 /* Pods_SolcenTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolcenTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1D61D8E1CDCDD6B94EC9F5 /* Pods-SolcenTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTaskTests/Pods-SolcenTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC65FFD7B4CE0E458E12681 /* Pods-SolcenTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTask/Pods-SolcenTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A76BF8916BB2D0E1FF5462F5 /* Pods_SolcenTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolcenTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCC8BAAC51B9629110203BE /* Pods-SolcenTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcenTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SolcenTaskUITests/Pods-SolcenTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C13819B81FBA078A00777355 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = SolcenTask/Utilities/Utilities.swift; sourceTree = SOURCE_ROOT; };
+		C13819BA1FBA09AA00777355 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		C13819BC1FBA0BDA00777355 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C13819BE1FBA13A600777355 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C13819BF1FBA13A600777355 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		C13819C21FBA195C00777355 /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		C13819C81FBA1E4500777355 /* AchievmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievmentDetailsViewController.swift; sourceTree = "<group>"; };
+		C18D80C21FB9479E0003606F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C18D80C31FB947E30003606F /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		C18D80C61FB98D590003606F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C19C64D81FB35C0E00278797 /* SolcenTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolcenTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19C64DB1FB35C0E00278797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19C64E01FB35C0E00278797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19C64E31FB35C0E00278797 /* SolcenTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolcenTask.xcdatamodel; sourceTree = "<group>"; };
+		C19C64E51FB35C0E00278797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19C64E81FB35C0E00278797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19C64EA1FB35C0E00278797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19C64EF1FB35C0E00278797 /* SolcenTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolcenTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19C64F31FB35C0E00278797 /* SolcenTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolcenTaskTests.swift; sourceTree = "<group>"; };
+		C19C64F51FB35C0E00278797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19C64FA1FB35C0E00278797 /* SolcenTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolcenTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19C64FE1FB35C0E00278797 /* SolcenTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolcenTaskUITests.swift; sourceTree = "<group>"; };
+		C19C65001FB35C0E00278797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19C64D51FB35C0E00278797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCDB640CBCC9B3717A99BC /* Pods_SolcenTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64EC1FB35C0E00278797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0238CB91736571A33B4AD2 /* Pods_SolcenTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64F71FB35C0E00278797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF67BDD4781D6BEB981991A3 /* Pods_SolcenTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A13B4222E8DECCE961FC07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CC65FFD7B4CE0E458E12681 /* Pods-SolcenTask.debug.xcconfig */,
+				5B41398E50402DF9DA6E38AC /* Pods-SolcenTask.release.xcconfig */,
+				33B07EAEEC233DA9A6E7FCE9 /* Pods-SolcenTaskTests.debug.xcconfig */,
+				9C1D61D8E1CDCDD6B94EC9F5 /* Pods-SolcenTaskTests.release.xcconfig */,
+				70D2C3680B1FAA10C1BCAD63 /* Pods-SolcenTaskUITests.debug.xcconfig */,
+				ABCC8BAAC51B9629110203BE /* Pods-SolcenTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3120DEBADF667300A19EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BAC89174A1937AE7F4988 /* Pods_SolcenTask.framework */,
+				A76BF8916BB2D0E1FF5462F5 /* Pods_SolcenTaskTests.framework */,
+				7E53474931CBEF7005E50B95 /* Pods_SolcenTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18D80BF1FB9476F0003606F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C18D80C31FB947E30003606F /* ApiModel.swift */,
+				C13819B81FBA078A00777355 /* Utilities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C18D80C01FB947840003606F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C13819BE1FBA13A600777355 /* CustomTableViewCell.swift */,
+				C13819BF1FBA13A600777355 /* CustomTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C18D80C11FB9479E0003606F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C13819BC1FBA0BDA00777355 /* BaseViewController.swift */,
+				C18D80C21FB9479E0003606F /* ViewController.swift */,
+				C13819BA1FBA09AA00777355 /* CategoriesViewController.swift */,
+				C13819C21FBA195C00777355 /* AchievementsViewController.swift */,
+				C13819C81FBA1E4500777355 /* AchievmentDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C18D80C51FB98D470003606F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C18D80C61FB98D590003606F /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C19C64CF1FB35C0D00278797 = {
+			isa = PBXGroup;
+			children = (
+				C19C64DA1FB35C0E00278797 /* SolcenTask */,
+				C19C64F21FB35C0E00278797 /* SolcenTaskTests */,
+				C19C64FD1FB35C0E00278797 /* SolcenTaskUITests */,
+				C19C64D91FB35C0E00278797 /* Products */,
+				B3A13B4222E8DECCE961FC07 /* Pods */,
+				BC3120DEBADF667300A19EA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C19C64D91FB35C0E00278797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19C64D81FB35C0E00278797 /* SolcenTask.app */,
+				C19C64EF1FB35C0E00278797 /* SolcenTaskTests.xctest */,
+				C19C64FA1FB35C0E00278797 /* SolcenTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19C64DA1FB35C0E00278797 /* SolcenTask */ = {
+			isa = PBXGroup;
+			children = (
+				C19C64DB1FB35C0E00278797 /* AppDelegate.swift */,
+				C18D80C11FB9479E0003606F /* Controller */,
+				C18D80C01FB947840003606F /* View */,
+				C18D80BF1FB9476F0003606F /* Model */,
+				C19C64DF1FB35C0E00278797 /* Main.storyboard */,
+				C18D80C51FB98D470003606F /* Utilities */,
+				C19C64E51FB35C0E00278797 /* Assets.xcassets */,
+				C19C64E71FB35C0E00278797 /* LaunchScreen.storyboard */,
+				C19C64EA1FB35C0E00278797 /* Info.plist */,
+				C19C64E21FB35C0E00278797 /* SolcenTask.xcdatamodeld */,
+			);
+			path = SolcenTask;
+			sourceTree = "<group>";
+		};
+		C19C64F21FB35C0E00278797 /* SolcenTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19C64F31FB35C0E00278797 /* SolcenTaskTests.swift */,
+				C19C64F51FB35C0E00278797 /* Info.plist */,
+			);
+			path = SolcenTaskTests;
+			sourceTree = "<group>";
+		};
+		C19C64FD1FB35C0E00278797 /* SolcenTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19C64FE1FB35C0E00278797 /* SolcenTaskUITests.swift */,
+				C19C65001FB35C0E00278797 /* Info.plist */,
+			);
+			path = SolcenTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19C64D71FB35C0E00278797 /* SolcenTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19C65031FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTask" */;
+			buildPhases = (
+				85D804BA6D3321CFE075CF91 /* [CP] Check Pods Manifest.lock */,
+				C19C64D41FB35C0E00278797 /* Sources */,
+				C19C64D51FB35C0E00278797 /* Frameworks */,
+				C19C64D61FB35C0E00278797 /* Resources */,
+				D0AE831541846C73C2F7C06B /* [CP] Embed Pods Frameworks */,
+				4E8ED22E8482AC4DFCB0AB0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolcenTask;
+			productName = SolcenTask;
+			productReference = C19C64D81FB35C0E00278797 /* SolcenTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19C64EE1FB35C0E00278797 /* SolcenTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19C65061FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTaskTests" */;
+			buildPhases = (
+				A56AC391DDA5303B0CC69EC9 /* [CP] Check Pods Manifest.lock */,
+				C19C64EB1FB35C0E00278797 /* Sources */,
+				C19C64EC1FB35C0E00278797 /* Frameworks */,
+				C19C64ED1FB35C0E00278797 /* Resources */,
+				B4C98E85B54671E67B0091AB /* [CP] Embed Pods Frameworks */,
+				C93BC050B055B6E02FBF5158 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19C64F11FB35C0E00278797 /* PBXTargetDependency */,
+			);
+			name = SolcenTaskTests;
+			productName = SolcenTaskTests;
+			productReference = C19C64EF1FB35C0E00278797 /* SolcenTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19C64F91FB35C0E00278797 /* SolcenTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19C65091FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTaskUITests" */;
+			buildPhases = (
+				48D4F25D561D9E3D0D7BBAEB /* [CP] Check Pods Manifest.lock */,
+				C19C64F61FB35C0E00278797 /* Sources */,
+				C19C64F71FB35C0E00278797 /* Frameworks */,
+				C19C64F81FB35C0E00278797 /* Resources */,
+				8D68A9EBA8562D7F5B0F0D50 /* [CP] Embed Pods Frameworks */,
+				3A318ED6BD0FB1BE4A1A5118 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19C64FC1FB35C0E00278797 /* PBXTargetDependency */,
+			);
+			name = SolcenTaskUITests;
+			productName = SolcenTaskUITests;
+			productReference = C19C64FA1FB35C0E00278797 /* SolcenTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19C64D01FB35C0D00278797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Dhanunjaya;
+				TargetAttributes = {
+					C19C64D71FB35C0E00278797 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C19C64EE1FB35C0E00278797 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C19C64D71FB35C0E00278797;
+					};
+					C19C64F91FB35C0E00278797 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C19C64D71FB35C0E00278797;
+					};
+				};
+			};
+			buildConfigurationList = C19C64D31FB35C0D00278797 /* Build configuration list for PBXProject "SolcenTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19C64CF1FB35C0D00278797;
+			productRefGroup = C19C64D91FB35C0E00278797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19C64D71FB35C0E00278797 /* SolcenTask */,
+				C19C64EE1FB35C0E00278797 /* SolcenTaskTests */,
+				C19C64F91FB35C0E00278797 /* SolcenTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19C64D61FB35C0E00278797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19C64E91FB35C0E00278797 /* LaunchScreen.storyboard in Resources */,
+				C13819C11FBA13A600777355 /* CustomTableViewCell.xib in Resources */,
+				C19C64E61FB35C0E00278797 /* Assets.xcassets in Resources */,
+				C19C64E11FB35C0E00278797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64ED1FB35C0E00278797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64F81FB35C0E00278797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A318ED6BD0FB1BE4A1A5118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTaskUITests/Pods-SolcenTaskUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D4F25D561D9E3D0D7BBAEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8ED22E8482AC4DFCB0AB0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTask/Pods-SolcenTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D804BA6D3321CFE075CF91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D68A9EBA8562D7F5B0F0D50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTaskUITests/Pods-SolcenTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56AC391DDA5303B0CC69EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C98E85B54671E67B0091AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTaskTests/Pods-SolcenTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93BC050B055B6E02FBF5158 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTaskTests/Pods-SolcenTaskTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AE831541846C73C2F7C06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolcenTask/Pods-SolcenTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19C64D41FB35C0E00278797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13819B91FBA078A00777355 /* Utilities.swift in Sources */,
+				C13819B71FB9FFAB00777355 /* ViewController.swift in Sources */,
+				C13819C01FBA13A600777355 /* CustomTableViewCell.swift in Sources */,
+				C19C64E41FB35C0E00278797 /* SolcenTask.xcdatamodeld in Sources */,
+				C13819C31FBA195C00777355 /* AchievementsViewController.swift in Sources */,
+				C18D80C41FB947E30003606F /* ApiModel.swift in Sources */,
+				C19C64DC1FB35C0E00278797 /* AppDelegate.swift in Sources */,
+				C13819BD1FBA0BDA00777355 /* BaseViewController.swift in Sources */,
+				C13819BB1FBA09AA00777355 /* CategoriesViewController.swift in Sources */,
+				C18D80C71FB98D5A0003606F /* Constants.swift in Sources */,
+				C13819C91FBA1E4500777355 /* AchievmentDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64EB1FB35C0E00278797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19C64F41FB35C0E00278797 /* SolcenTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19C64F61FB35C0E00278797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19C64FF1FB35C0E00278797 /* SolcenTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19C64F11FB35C0E00278797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19C64D71FB35C0E00278797 /* SolcenTask */;
+			targetProxy = C19C64F01FB35C0E00278797 /* PBXContainerItemProxy */;
+		};
+		C19C64FC1FB35C0E00278797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19C64D71FB35C0E00278797 /* SolcenTask */;
+			targetProxy = C19C64FB1FB35C0E00278797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C19C64DF1FB35C0E00278797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19C64E01FB35C0E00278797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19C64E71FB35C0E00278797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19C64E81FB35C0E00278797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19C65011FB35C0E00278797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19C65021FB35C0E00278797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19C65041FB35C0E00278797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC65FFD7B4CE0E458E12681 /* Pods-SolcenTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19C65051FB35C0E00278797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B41398E50402DF9DA6E38AC /* Pods-SolcenTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C19C65071FB35C0E00278797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B07EAEEC233DA9A6E7FCE9 /* Pods-SolcenTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolcenTask.app/SolcenTask";
+			};
+			name = Debug;
+		};
+		C19C65081FB35C0E00278797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1D61D8E1CDCDD6B94EC9F5 /* Pods-SolcenTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolcenTask.app/SolcenTask";
+			};
+			name = Release;
+		};
+		C19C650A1FB35C0E00278797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D2C3680B1FAA10C1BCAD63 /* Pods-SolcenTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolcenTask;
+			};
+			name = Debug;
+		};
+		C19C650B1FB35C0E00278797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCC8BAAC51B9629110203BE /* Pods-SolcenTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 235U5E83ZZ;
+				INFOPLIST_FILE = SolcenTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SolcenTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolcenTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19C64D31FB35C0D00278797 /* Build configuration list for PBXProject "SolcenTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19C65011FB35C0E00278797 /* Debug */,
+				C19C65021FB35C0E00278797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19C65031FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19C65041FB35C0E00278797 /* Debug */,
+				C19C65051FB35C0E00278797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19C65061FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19C65071FB35C0E00278797 /* Debug */,
+				C19C65081FB35C0E00278797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19C65091FB35C0E00278797 /* Build configuration list for PBXNativeTarget "SolcenTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19C650A1FB35C0E00278797 /* Debug */,
+				C19C650B1FB35C0E00278797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C19C64E21FB35C0E00278797 /* SolcenTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C19C64E31FB35C0E00278797 /* SolcenTask.xcdatamodel */,
+			);
+			currentVersion = C19C64E31FB35C0E00278797 /* SolcenTask.xcdatamodel */;
+			path = SolcenTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C19C64D01FB35C0D00278797 /* Project object */;
+}
