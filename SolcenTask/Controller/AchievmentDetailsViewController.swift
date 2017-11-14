@@ -37,17 +37,17 @@ class AchievmentDetailsViewController: UIViewController {
             flags += "\(flag)" + "\n"
         }
         flags = String(flags.characters.dropLast())
-        flagsLabel.text = "Flags: \n" + flags
+        flagsLabel.text = "\(Constants.FixedValues.FLAGS): \n" + flags
     }
     //Appending text from dictionary and giving to label
     func prepareTiers(array: [[String : Any]]){
         var tiers = ""
         for tier in array{
-            let count = "count: \(tier["count"] as? Int ?? 0) \n"
-            let points = "points: \(tier["points"] as? Int ?? 0) \n"
+            let count = "\(Constants.FixedValues.COUNT): \(tier["count"] as? Int ?? 0) \n"
+            let points = "\(Constants.FixedValues.POINTS): \(tier["points"] as? Int ?? 0) \n"
             tiers += count + points + "\n"
         }
-        tiersLabel.text = "Tiers: \n\n" + tiers
+        tiersLabel.text = "\(Constants.FixedValues.TIERS): \n\n" + tiers
     }
     //Appending text from dictionary and giving to label
     func prepareRewards(array: [[String : Any]]){
@@ -55,9 +55,9 @@ class AchievmentDetailsViewController: UIViewController {
         for reward in array{
             let type = reward["type"] as? String ?? ""
             let region = reward["region"] as? String ?? ""
-            rewards += "Type: " + type + "\n Region:" + region + "\n"
+            rewards += "\(Constants.FixedValues.TYPE): " + type + "\n \(Constants.FixedValues.REGION):" + region + "\n"
         }
-        rewardsLabel.text = "Rewards: \n\n" + rewards
+        rewardsLabel.text = "\(Constants.FixedValues.REGION): \n\n" + rewards
     }
     
 
